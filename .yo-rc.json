@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.home.practice"
+    },
+    "jhipsterVersion": "5.6.1",
+    "applicationType": "monolith",
+    "baseName": "GitJenkins",
+    "packageName": "com.home.practice",
+    "packageFolder": "com/home/practice",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZjVhYzU5OWEyZGExZjY5NzJiYmM4YjBiMTExYjU5ZGVkNWZiOTkwYmRmODUwNjE2NGU4YWRkMzZmNTc5ZDJhOTY0MzQzYjQ5MGI1MjA1YzIzNTAyMzI4MGQ3OWZjMjU4M2FhOWVmZTBjMzIwZDdkNDBiZmE3OGNjOTg1NTZlZGI=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
