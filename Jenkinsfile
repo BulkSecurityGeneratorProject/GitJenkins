@@ -10,7 +10,7 @@ node {
             sh "echo 'shell scripts to build project...'"
         }
 		stage ('Before Build') {
-            sh "echo 'Before Build...Pakkiriah'"
+            sh "echo 'Before Build...Pakkiriah kandi'"
         }
         stage ('Tests') {
             parallel 'static': {
