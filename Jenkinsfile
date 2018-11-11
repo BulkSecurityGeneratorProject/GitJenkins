@@ -9,6 +9,9 @@ node {
         stage ('Build') {
             sh "echo 'shell scripts to build project...'"
         }
+		stage ('Before Build') {
+            sh "echo 'Before Build...Pakkiriah'"
+        }
         stage ('Tests') {
             parallel 'static': {
                 sh "echo 'shell scripts to run static tests...'"
